@@ -1,9 +1,12 @@
-greeting = "Hello world!"
+# common greeting 
+name = input('Name?')
+greeting = "Hello {name}!"
 print(greeting)
 
+# Comment on fibonnacci sequence in python 
 def fib(s):
   if s < 0:
-    print('Non-ero value')
+    print('Non-zero value')
 
   elif s == 0:
     return 0
@@ -15,5 +18,11 @@ def fib(s):
     return fib(s - 1) + fib(s - 2)
 
 
-print(fib(6))
-print(fib(30))
+# print(fib(6))
+# print(fib(30))
+
+# Variables
+array = [1,2,3,4]
+# array.insert(1, "Value1")
+array.insert(0, 0)
+print(array)
