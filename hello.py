@@ -1,7 +1,9 @@
 # common greeting 
 name = input('Name?')
-greeting = "Hello {name}!"
-print(greeting)
+greeting = "Hello {} !"
+# .format() how to use a previous set string to a new one
+print(greeting.format(name))
+
 
 # Comment on fibonnacci sequence in python 
 def fib(s):
